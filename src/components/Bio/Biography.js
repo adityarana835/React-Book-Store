@@ -17,7 +17,7 @@ const Biography = ({ onAddToCart, bioProducts }) => {
           <div className={classes.categorySection}>
             <h3 className={classes.categoryHeader}>Biographies</h3>
             <h3 className={classes.categoryDesc}>
-              Browse our Biographies Collection
+            Discover Lives Unfolded: Explore Our Biographies Collection
             </h3>
             <Grid
               className={classes.categoryFeatured}

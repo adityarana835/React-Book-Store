@@ -8,7 +8,7 @@ import {
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
 import { Link } from "react-router-dom";
-import logo from "../../assets/circles.png";
+import logo from "../../assets/HAVEN.png";
 import useStyles from "./styles";
 
 const Navbar = ({ totalItems }) => {
@@ -31,7 +31,7 @@ const Navbar = ({ totalItems }) => {
               height="50px"
               className={classes.image}
             />
-            <div>BOOKSHOP</div>
+            <div>The Book Haven</div>
           </Typography>
 
           <div className={classes.grow} />

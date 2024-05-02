@@ -19,7 +19,7 @@ const Fiction = ({ onAddToCart, fictionProducts }) => {
               <span style={{ color: "#f1361d" }}>Fictional&nbsp;</span>Books
             </h3>
             <h3 className={classes.categoryDesc}>
-              Browse our Fictional books Collection
+              Browse our Some Awesome Fictional books Collection
             </h3>
             <Grid
               className={classes.categoryFeatured}

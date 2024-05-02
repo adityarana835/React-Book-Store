@@ -6,7 +6,7 @@ export default makeStyles((theme) => ({
   appBar: {
     color: "white",
     boxShadow: "none",
-    background: "#001524",
+    background: "#808080",
     borderBottom: "1px solid rgba(0, 0, 0, 0.12)",
     [theme.breakpoints.up("sm")]: {
       width: `calc(100% - ${drawerWidth}px)`,
@@ -22,7 +22,7 @@ export default makeStyles((theme) => ({
     letterSpacing: 1,
     textDecoration: "none",
     "&:hover": {
-      color: "#ffff",
+      color: "#000000",
       boxShadow: "none",
     },
   },

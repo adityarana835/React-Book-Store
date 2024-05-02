@@ -3,7 +3,7 @@ import { Grid, InputAdornment, Input } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import Product from "./Product/Product.js";
 import useStyles from "./styles";
-import logo1 from "../../assets/Bookshop.gif";
+import logo1 from "../../assets/BOOKS INTRO.jpg";
 import scrollImg from "../../assets/scroll.gif";
 import "../ProductView/style.css";
 import { Link } from "react-router-dom";
@@ -34,11 +34,11 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
 
         <div className={classes.heroCont}>
           <h1 className={classes.heroHeader}>
-            Discover Your Next Favorite Book Here.
+          Uncover Your Next Literary Obsession Here.
           </h1>
           <h3 className={classes.heroDesc} ref={sectionRef}>
-            Explore our curated collection of new and popular books to find your
-            next literary adventure.
+          Dive into our handpicked treasure trove of new and popular 
+          reads to embark on your next thrilling literary journey.
           </h3>
           <div className={classes.searchs}>
             <Input
